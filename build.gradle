@@ -25,6 +25,11 @@ dependencies {
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
+
+
+    // https://mvnrepository.com/artifact/jexcelapi/jxl
+    implementation group: 'jexcelapi', name: 'jxl', version: '2.4.2'
+
 }
 
 // Define the main class for the application
